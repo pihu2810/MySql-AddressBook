@@ -24,3 +24,5 @@ WHERE id = 1;
 
 SELECT * from addressbook where firstname = 'Vishu';
 SELECT firstname from addressbook where firstname = 'Vishu';
+DELETE from addressbook WHERE firstname = 'kumar';
+SELECT * FROM addressbook WHERE firstname = 'kumar';
