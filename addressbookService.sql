@@ -31,3 +31,5 @@ SELECT  city, state, COUNT(*) from addressbook where city = 'Pune' AND state = '
 SELECT * FROM addressbook WHERE state = 'Maharashtra' ORDER BY firstname ASC;
 SELECT * FROM addressbook WHERE state = 'Maharashtra' ORDER BY firstname DESC;
 SELECT ab_type, COUNT(*) FROM addressbook GROUP BY ab_type;
+insert into addressbook(id,firstname,lastname,address,city,state,zip,phonenumber,email,ab_name,ab_type)
+ values(5,'vishu', 'kadam', 'Kothrud', 'Pune', 'Maharashtra','424112', '1234567890',	'jul.m1@gmail.com',	'AddressBook2',	'friends');
