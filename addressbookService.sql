@@ -27,3 +27,4 @@ SELECT firstname from addressbook where firstname = 'Vishu';
 DELETE from addressbook WHERE id = 4;
 SELECT * FROM addressbook WHERE firstname = 'Kumar';
 SELECT * from addressbook where city = 'Pune' OR state = 'MP';
+SELECT  city, state, COUNT(*) from addressbook where city = 'Pune' AND state = 'Maharashtra';
